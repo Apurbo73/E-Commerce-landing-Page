@@ -5,8 +5,7 @@
 }
 
 .logo {
-    margin-left: 10px;
-    margin-Right: 10px;
+
     color: orange;
     /* font-size: 20px; */
 
@@ -27,22 +26,44 @@
     color: aliceblue;
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
 
 }
 
 .nav-search{
-    background-color: orange;
-    width:600px;
+    background-color: rgb(252, 251, 248);
+    width:500px;
     border-radius: 5px;
     height: 40px;
+    display: flex;
 }
+
 .search-select{
-    background-color: #f3f3f3;
+    background-color: #dad5d5;
     text-align: center;
     width: 50px;
+    height: 40px;
+    border: none;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+
 } 
 .search-input{
-    width: 400px;
+    width: 100%;
     margin-top: 3px;
-    text-align: center;
+    height: 40px;
+    margin: 0;
+    border: none;
+
+}
+.search-icon{
+    background-color: orange;
+    padding: 10px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    height: 40px;
+    width: 40px;
+    color: black;
+    font-size: 1.2rem;
+
 }
